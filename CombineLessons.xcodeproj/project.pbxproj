@@ -13,6 +13,7 @@
 		AD0633CA2B32BB4B0025CADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633C92B32BB4B0025CADE /* Assets.xcassets */; };
 		AD0633CD2B32BB4B0025CADE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
+		ADFB04962B3C19CE00189D3A /* LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB04952B3C19CE00189D3A /* LessonFour.swift */; };
 		ADFC71DE2B3958F2001ED584 /* LessonThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC71DD2B3958F2001ED584 /* LessonThree.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		AD0633C92B32BB4B0025CADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
+		ADFB04952B3C19CE00189D3A /* LessonFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFour.swift; sourceTree = "<group>"; };
 		ADFC71DD2B3958F2001ED584 /* LessonThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +66,7 @@
 				AD8245B92B32BCA1002C42E9 /* LessonOne.swift */,
 				AD05D6A92B342336005467A1 /* LessonTwo.swift */,
 				ADFC71DD2B3958F2001ED584 /* LessonThree.swift */,
+				ADFB04952B3C19CE00189D3A /* LessonFour.swift */,
 			);
 			path = CombineLessons;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				AD0633C62B32BB4A0025CADE /* CombineLessonsApp.swift in Sources */,
 				AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */,
 				ADFC71DE2B3958F2001ED584 /* LessonThree.swift in Sources */,
+				ADFB04962B3C19CE00189D3A /* LessonFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
