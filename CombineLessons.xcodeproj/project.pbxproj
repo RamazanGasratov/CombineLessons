@@ -16,6 +16,7 @@
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
 		AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */; };
+		AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */; };
 		ADFB04962B3C19CE00189D3A /* LessonFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFB04952B3C19CE00189D3A /* LessonFour.swift */; };
 		ADFC71DE2B3958F2001ED584 /* LessonThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFC71DD2B3958F2001ED584 /* LessonThree.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSix.swift; sourceTree = "<group>"; };
+		AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonEight.swift; sourceTree = "<group>"; };
 		ADFB04952B3C19CE00189D3A /* LessonFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFour.swift; sourceTree = "<group>"; };
 		ADFC71DD2B3958F2001ED584 /* LessonThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				AD0BEF452B3D593A0035AFBC /* LessonFive.swift */,
 				AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */,
 				AD3090E82B4D274D0053641F /* LessonSeven.swift */,
+				AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */,
 			);
 			path = CombineLessons;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				AD05D6AA2B342336005467A1 /* LessonTwo.swift in Sources */,
 				AD0633C82B32BB4A0025CADE /* ContentView.swift in Sources */,
 				AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */,
+				AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */,
 				AD0633C62B32BB4A0025CADE /* CombineLessonsApp.swift in Sources */,
 				AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */,
 				ADFC71DE2B3958F2001ED584 /* LessonThree.swift in Sources */,
