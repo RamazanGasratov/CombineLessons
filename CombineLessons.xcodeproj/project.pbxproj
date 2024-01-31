@@ -14,6 +14,7 @@
 		AD0633CD2B32BB4B0025CADE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */; };
 		AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0BEF452B3D593A0035AFBC /* LessonFive.swift */; };
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
+		AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32A78B2B6AC36200B19496 /* Two Sum.swift */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
 		AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */; };
 		AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */; };
@@ -37,6 +38,7 @@
 		AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD0BEF452B3D593A0035AFBC /* LessonFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFive.swift; sourceTree = "<group>"; };
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
+		AD32A78B2B6AC36200B19496 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSix.swift; sourceTree = "<group>"; };
 		AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonEight.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		AD0633C42B32BB4A0025CADE /* CombineLessons */ = {
 			isa = PBXGroup;
 			children = (
+				AD32A78A2B6AC30D00B19496 /* Algorithm */,
 				ADAA53DB2B5FB87000A16E8B /* ArchitecturePatterns */,
 				AD0633C52B32BB4A0025CADE /* CombineLessonsApp.swift */,
 				AD0633C72B32BB4A0025CADE /* ContentView.swift */,
@@ -104,6 +107,14 @@
 				AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD32A78A2B6AC30D00B19496 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AD32A78B2B6AC36200B19496 /* Two Sum.swift */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		ADAA53DB2B5FB87000A16E8B /* ArchitecturePatterns */ = {
@@ -199,6 +210,7 @@
 				ADAA53E52B5FBD5000A16E8B /* LemonView.swift in Sources */,
 				AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */,
 				ADAA53E12B5FBCEC00A16E8B /* BananView.swift in Sources */,
+				AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */,
 				ADAA53DD2B5FB8BD00A16E8B /* AppleView.swift in Sources */,
 				AD0633C62B32BB4A0025CADE /* CombineLessonsApp.swift in Sources */,
 				AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */,
