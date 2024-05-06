@@ -13,9 +13,11 @@
 		AD0633CA2B32BB4B0025CADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633C92B32BB4B0025CADE /* Assets.xcassets */; };
 		AD0633CD2B32BB4B0025CADE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */; };
 		AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0BEF452B3D593A0035AFBC /* LessonFive.swift */; };
+		AD16949A2BE94478001DB2B5 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1694992BE94478001DB2B5 /* Empty.swift */; };
 		AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */; };
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
 		AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32A78B2B6AC36200B19496 /* Two Sum.swift */; };
+		AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD508DC12BE7CCDC0055040E /* SearchTest.swift */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
 		AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */; };
 		AD91DB632B99DBEC00FF5F75 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91DB622B99DBEC00FF5F75 /* Facade.swift */; };
@@ -44,9 +46,11 @@
 		AD0633C92B32BB4B0025CADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD0BEF452B3D593A0035AFBC /* LessonFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFive.swift; sourceTree = "<group>"; };
+		AD1694992BE94478001DB2B5 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancelling Multipline Pipelines.swift"; sourceTree = "<group>"; };
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
 		AD32A78B2B6AC36200B19496 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
+		AD508DC12BE7CCDC0055040E /* SearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTest.swift; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSix.swift; sourceTree = "<group>"; };
 		AD91DB622B99DBEC00FF5F75 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 				AD0633C72B32BB4A0025CADE /* ContentView.swift */,
 				AD0633C92B32BB4B0025CADE /* Assets.xcassets */,
 				AD0633CB2B32BB4B0025CADE /* Preview Content */,
+				AD508DC12BE7CCDC0055040E /* SearchTest.swift */,
 			);
 			path = CombineLessons;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */,
 				ADBE3F282BE7196300F8E385 /* @Published.swift */,
 				ADBE3F2A2BE721B500F8E385 /* CurrentValueSubject.swift */,
+				AD1694992BE94478001DB2B5 /* Empty.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 				AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */,
 				ADAA53E32B5FBCFB00A16E8B /* CarrotView.swift in Sources */,
 				ADD6565E2BA1F966001D0689 /* Factory.swift in Sources */,
+				AD16949A2BE94478001DB2B5 /* Empty.swift in Sources */,
 				ADAA53E92B5FBE2E00A16E8B /* CoordinatorView.swift in Sources */,
 				AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */,
+				AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */,
 				ADAA53E72B5FBDE400A16E8B /* OliveView.swift in Sources */,
 				ADAA53E52B5FBD5000A16E8B /* LemonView.swift in Sources */,
 				AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */,
