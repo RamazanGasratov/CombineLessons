@@ -14,6 +14,7 @@
 		AD0633CA2B32BB4B0025CADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633C92B32BB4B0025CADE /* Assets.xcassets */; };
 		AD0633CD2B32BB4B0025CADE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */; };
 		AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0BEF452B3D593A0035AFBC /* LessonFive.swift */; };
+		AD0F6B962BF46FC300877899 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F6B952BF46FC300877899 /* Future.swift */; };
 		AD16949A2BE94478001DB2B5 /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1694992BE94478001DB2B5 /* Empty.swift */; };
 		AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */; };
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
@@ -48,6 +49,7 @@
 		AD0633C92B32BB4B0025CADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0633CC2B32BB4B0025CADE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD0BEF452B3D593A0035AFBC /* LessonFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFive.swift; sourceTree = "<group>"; };
+		AD0F6B952BF46FC300877899 /* Future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future.swift; sourceTree = "<group>"; };
 		AD1694992BE94478001DB2B5 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancelling Multipline Pipelines.swift"; sourceTree = "<group>"; };
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				ADBE3F2A2BE721B500F8E385 /* CurrentValueSubject.swift */,
 				AD1694992BE94478001DB2B5 /* Empty.swift */,
 				AD02F30C2BF2330400182BB0 /* Fail.swift */,
+				AD0F6B952BF46FC300877899 /* Future.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				AD91DB632B99DBEC00FF5F75 /* Facade.swift in Sources */,
 				ADFB04962B3C19CE00189D3A /* LessonFour.swift in Sources */,
 				AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */,
+				AD0F6B962BF46FC300877899 /* Future.swift in Sources */,
 				AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
