@@ -20,6 +20,7 @@
 		AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */; };
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
 		AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32A78B2B6AC36200B19496 /* Two Sum.swift */; };
+		AD3A63412C07470A009ABB16 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A63402C07470A009ABB16 /* Timer.swift */; };
 		AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD508DC12BE7CCDC0055040E /* SearchTest.swift */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
 		AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */; };
@@ -58,6 +59,7 @@
 		AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancelling Multipline Pipelines.swift"; sourceTree = "<group>"; };
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
 		AD32A78B2B6AC36200B19496 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
+		AD3A63402C07470A009ABB16 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		AD508DC12BE7CCDC0055040E /* SearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTest.swift; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSix.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				AD08C9CB2BFB7BD900842AEC /* Just.swift */,
 				ADD24BDB2BFFA80E003B2DAE /* PassthroughSubject.swift */,
 				ADF0324E2C04F3A300809CFB /* Sequence.swift */,
+				AD3A63402C07470A009ABB16 /* Timer.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				ADAA53E32B5FBCFB00A16E8B /* CarrotView.swift in Sources */,
 				ADD6565E2BA1F966001D0689 /* Factory.swift in Sources */,
 				AD16949A2BE94478001DB2B5 /* Empty.swift in Sources */,
+				AD3A63412C07470A009ABB16 /* Timer.swift in Sources */,
 				ADAA53E92B5FBE2E00A16E8B /* CoordinatorView.swift in Sources */,
 				AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */,
 				AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */,
