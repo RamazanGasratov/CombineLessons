@@ -92,7 +92,7 @@ final class UrlDataTaskPublisher_IntroViewModel: ObservableObject {
             .decode(type: [CatFact].self, decoder: JSONDecoder())
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: { completion in
-                if case .failure(let failure) = completion {
+                if case .failure(_) = completion {
                     self.error = ErrorForAlert(title: "Ошибка", message: "что то пошло не так")
                 }
                 
