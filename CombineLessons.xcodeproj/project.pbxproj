@@ -20,6 +20,7 @@
 		AD181F662BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */; };
 		AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3090E82B4D274D0053641F /* LessonSeven.swift */; };
 		AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32A78B2B6AC36200B19496 /* Two Sum.swift */; };
+		AD3687192C20862700509093 /* Contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3687182C20862700509093 /* Contains.swift */; };
 		AD3A63412C07470A009ABB16 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A63402C07470A009ABB16 /* Timer.swift */; };
 		AD402B632C19F9DF0086C06A /* TryAllSatisfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD402B622C19F9DF0086C06A /* TryAllSatisfy.swift */; };
 		AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD508DC12BE7CCDC0055040E /* SearchTest.swift */; };
@@ -66,6 +67,7 @@
 		AD181F652BD6BF6C00400BB7 /* Cancelling Multipline Pipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancelling Multipline Pipelines.swift"; sourceTree = "<group>"; };
 		AD3090E82B4D274D0053641F /* LessonSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSeven.swift; sourceTree = "<group>"; };
 		AD32A78B2B6AC36200B19496 /* Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum.swift"; sourceTree = "<group>"; };
+		AD3687182C20862700509093 /* Contains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contains.swift; sourceTree = "<group>"; };
 		AD3A63402C07470A009ABB16 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		AD402B622C19F9DF0086C06A /* TryAllSatisfy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfy.swift; sourceTree = "<group>"; };
 		AD508DC12BE7CCDC0055040E /* SearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTest.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				AD6023762C0DDD9300AE48B4 /* DataTaskPublisher_ForImages.swift */,
 				AD7DA9B52C16FA43002DEB00 /* AllSatisfy.swift */,
 				AD402B622C19F9DF0086C06A /* TryAllSatisfy.swift */,
+				AD3687182C20862700509093 /* Contains.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				ADF0324F2C04F3A300809CFB /* Sequence.swift in Sources */,
 				AD0633C82B32BB4A0025CADE /* ContentView.swift in Sources */,
 				AD08C9CC2BFB7BD900842AEC /* Just.swift in Sources */,
+				AD3687192C20862700509093 /* Contains.swift in Sources */,
 				AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */,
 				AD7DA9B62C16FA43002DEB00 /* AllSatisfy.swift in Sources */,
 				ADAA53E32B5FBCFB00A16E8B /* CarrotView.swift in Sources */,
