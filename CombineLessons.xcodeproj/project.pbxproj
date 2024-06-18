@@ -43,6 +43,7 @@
 		ADBE3F292BE7196300F8E385 /* @Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE3F282BE7196300F8E385 /* @Published.swift */; };
 		ADBE3F2B2BE721B500F8E385 /* CurrentValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE3F2A2BE721B500F8E385 /* CurrentValueSubject.swift */; };
 		ADD0D89E2C187D3100AAD1DA /* O.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD0D89D2C187D3100AAD1DA /* O.swift */; };
+		ADD16B5E2C21D23D004F4BA2 /* ProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD16B5D2C21D23D004F4BA2 /* ProxyView.swift */; };
 		ADD24BDC2BFFA80E003B2DAE /* PassthroughSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD24BDB2BFFA80E003B2DAE /* PassthroughSubject.swift */; };
 		ADD6565E2BA1F966001D0689 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD6565D2BA1F966001D0689 /* Factory.swift */; };
 		ADDC620C2C0E0B71002E1A4E /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDC620B2C0E0B71002E1A4E /* DI.swift */; };
@@ -90,6 +91,8 @@
 		ADBE3F282BE7196300F8E385 /* @Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "@Published.swift"; sourceTree = "<group>"; };
 		ADBE3F2A2BE721B500F8E385 /* CurrentValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject.swift; sourceTree = "<group>"; };
 		ADD0D89D2C187D3100AAD1DA /* O.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O.swift; sourceTree = "<group>"; };
+		ADD16B5D2C21D23D004F4BA2 /* ProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyView.swift; sourceTree = "<group>"; };
+		ADD16B5F2C21E095004F4BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ADD24BDB2BFFA80E003B2DAE /* PassthroughSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubject.swift; sourceTree = "<group>"; };
 		ADD6565D2BA1F966001D0689 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		ADDC620B2C0E0B71002E1A4E /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 		AD0633C42B32BB4A0025CADE /* CombineLessons */ = {
 			isa = PBXGroup;
 			children = (
+				ADD16B5F2C21E095004F4BA2 /* Info.plist */,
 				AD91DB652B99DC2600FF5F75 /* Combine */,
 				AD32A78A2B6AC30D00B19496 /* Algorithm */,
 				ADAA53DB2B5FB87000A16E8B /* ArchitecturePatterns */,
@@ -214,6 +218,7 @@
 		ADAA53DB2B5FB87000A16E8B /* ArchitecturePatterns */ = {
 			isa = PBXGroup;
 			children = (
+				ADD16B5C2C21D1E5004F4BA2 /* Proxy */,
 				ADDC62112C0F74F7002E1A4E /* SOLID */,
 				ADCA038E2BD0468D00DA6FC3 /* AbstractFactory */,
 				ADD6565C2BA1F945001D0689 /* Factory */,
@@ -229,6 +234,14 @@
 			children = (
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		ADD16B5C2C21D1E5004F4BA2 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				ADD16B5D2C21D23D004F4BA2 /* ProxyView.swift */,
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 		ADD6565C2BA1F945001D0689 /* Factory */ = {
@@ -357,6 +370,7 @@
 				AD91DB632B99DBEC00FF5F75 /* Facade.swift in Sources */,
 				ADFB04962B3C19CE00189D3A /* LessonFour.swift in Sources */,
 				AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */,
+				ADD16B5E2C21D23D004F4BA2 /* ProxyView.swift in Sources */,
 				AD0F6B962BF46FC300877899 /* Future.swift in Sources */,
 				AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */,
 			);
@@ -494,8 +508,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CombineLessons/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineLessons/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -522,8 +536,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CombineLessons/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CombineLessons/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

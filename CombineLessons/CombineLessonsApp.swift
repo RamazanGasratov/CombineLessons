@@ -11,7 +11,7 @@ import SwiftUI
 struct CombineLessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            CoordinatorView()
+            LinkInProxyView()
         }
     }
 }
