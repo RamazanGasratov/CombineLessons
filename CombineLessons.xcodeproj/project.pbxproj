@@ -24,12 +24,14 @@
 		AD3A63412C07470A009ABB16 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A63402C07470A009ABB16 /* Timer.swift */; };
 		AD402B632C19F9DF0086C06A /* TryAllSatisfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD402B622C19F9DF0086C06A /* TryAllSatisfy.swift */; };
 		AD508DC22BE7CCDC0055040E /* SearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD508DC12BE7CCDC0055040E /* SearchTest.swift */; };
+		AD51AF882C32BFC400676811 /* apple-app-site-association.json in Sources */ = {isa = PBXBuildFile; fileRef = AD51AF872C32BFC400676811 /* apple-app-site-association.json */; };
 		AD6023772C0DDD9300AE48B4 /* DataTaskPublisher_ForImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6023762C0DDD9300AE48B4 /* DataTaskPublisher_ForImages.swift */; };
 		AD7DA9B62C16FA43002DEB00 /* AllSatisfy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7DA9B52C16FA43002DEB00 /* AllSatisfy.swift */; };
 		AD8245BA2B32BCA1002C42E9 /* LessonOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8245B92B32BCA1002C42E9 /* LessonOne.swift */; };
 		AD8A04C62B4BCDF200BF1964 /* LessonSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */; };
 		AD91DB632B99DBEC00FF5F75 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD91DB622B99DBEC00FF5F75 /* Facade.swift */; };
 		AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */; };
+		ADA10A9F2C244D3200030888 /* DeepLinkTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA10A9E2C244D3200030888 /* DeepLinkTestView.swift */; };
 		ADA2B5742BCEF38900011F37 /* Cancellable Pipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2B5732BCEF38900011F37 /* Cancellable Pipeline.swift */; };
 		ADAA53DD2B5FB8BD00A16E8B /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA53DC2B5FB8BD00A16E8B /* AppleView.swift */; };
 		ADAA53DF2B5FB9D000A16E8B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA53DE2B5FB9D000A16E8B /* Coordinator.swift */; };
@@ -72,12 +74,15 @@
 		AD3A63402C07470A009ABB16 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		AD402B622C19F9DF0086C06A /* TryAllSatisfy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryAllSatisfy.swift; sourceTree = "<group>"; };
 		AD508DC12BE7CCDC0055040E /* SearchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTest.swift; sourceTree = "<group>"; };
+		AD51AF862C32BF0100676811 /* CombineLessons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CombineLessons.entitlements; sourceTree = "<group>"; };
+		AD51AF872C32BFC400676811 /* apple-app-site-association.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "apple-app-site-association.json"; sourceTree = "<group>"; };
 		AD6023762C0DDD9300AE48B4 /* DataTaskPublisher_ForImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskPublisher_ForImages.swift; sourceTree = "<group>"; };
 		AD7DA9B52C16FA43002DEB00 /* AllSatisfy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSatisfy.swift; sourceTree = "<group>"; };
 		AD8245B92B32BCA1002C42E9 /* LessonOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonOne.swift; sourceTree = "<group>"; };
 		AD8A04C52B4BCDF200BF1964 /* LessonSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSix.swift; sourceTree = "<group>"; };
 		AD91DB622B99DBEC00FF5F75 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		AD9A1B0F2B4E719100A1BDD3 /* LessonEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonEight.swift; sourceTree = "<group>"; };
+		ADA10A9E2C244D3200030888 /* DeepLinkTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkTestView.swift; sourceTree = "<group>"; };
 		ADA2B5732BCEF38900011F37 /* Cancellable Pipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancellable Pipeline.swift"; sourceTree = "<group>"; };
 		ADAA53DC2B5FB8BD00A16E8B /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
 		ADAA53DE2B5FB9D000A16E8B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 		AD0633B92B32BB4A0025CADE = {
 			isa = PBXGroup;
 			children = (
+				AD51AF872C32BFC400676811 /* apple-app-site-association.json */,
 				AD0633C42B32BB4A0025CADE /* CombineLessons */,
 				AD0633C32B32BB4A0025CADE /* Products */,
 			);
@@ -132,6 +138,8 @@
 		AD0633C42B32BB4A0025CADE /* CombineLessons */ = {
 			isa = PBXGroup;
 			children = (
+				AD51AF862C32BF0100676811 /* CombineLessons.entitlements */,
+				ADA10A9D2C244D1900030888 /* DeepLinks */,
 				ADD16B5F2C21E095004F4BA2 /* Info.plist */,
 				AD91DB652B99DC2600FF5F75 /* Combine */,
 				AD32A78A2B6AC30D00B19496 /* Algorithm */,
@@ -213,6 +221,14 @@
 				AD3687182C20862700509093 /* Contains.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		ADA10A9D2C244D1900030888 /* DeepLinks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA10A9E2C244D3200030888 /* DeepLinkTestView.swift */,
+			);
+			path = DeepLinks;
 			sourceTree = "<group>";
 		};
 		ADAA53DB2B5FB87000A16E8B /* ArchitecturePatterns */ = {
@@ -352,6 +368,7 @@
 				ADAA53E52B5FBD5000A16E8B /* LemonView.swift in Sources */,
 				ADDC62132C0F7506002E1A4E /* S.swift in Sources */,
 				AD9A1B102B4E719100A1BDD3 /* LessonEight.swift in Sources */,
+				AD51AF882C32BFC400676811 /* apple-app-site-association.json in Sources */,
 				ADD24BDC2BFFA80E003B2DAE /* PassthroughSubject.swift in Sources */,
 				ADAA53E12B5FBCEC00A16E8B /* BananView.swift in Sources */,
 				AD32A78C2B6AC36200B19496 /* Two Sum.swift in Sources */,
@@ -372,6 +389,7 @@
 				AD3090E92B4D274D0053641F /* LessonSeven.swift in Sources */,
 				ADD16B5E2C21D23D004F4BA2 /* ProxyView.swift in Sources */,
 				AD0F6B962BF46FC300877899 /* Future.swift in Sources */,
+				ADA10A9F2C244D3200030888 /* DeepLinkTestView.swift in Sources */,
 				AD0BEF462B3D593A0035AFBC /* LessonFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineLessons/CombineLessons.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CombineLessons/Preview Content\"";
@@ -531,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CombineLessons/CombineLessons.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CombineLessons/Preview Content\"";

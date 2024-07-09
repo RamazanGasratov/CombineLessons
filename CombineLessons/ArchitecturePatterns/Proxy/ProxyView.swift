@@ -104,3 +104,103 @@ struct ProxyView: View {
 #Preview {
     LinkInProxyView()
 }
+
+//Сценарий
+//Предположим, что у нас есть приложение, которое взаимодействует с API для получения данных о пользователях. Каждый раз, когда приложение запрашивает данные о пользователе, это может быть дорогостоящая операция (по времени и по трафику). Мы хотим улучшить производительность приложения за счет кэширования данных.
+//
+//Реализация Proxy для кэширования сетевых запросов
+//Создаем протокол UserService, который будет определять метод для получения данных о пользователях.
+//Создаем класс RealUserService, который реализует этот протокол и делает реальные сетевые запросы.
+//Создаем класс UserServiceProxy, который также реализует протокол UserService и кэширует данные, чтобы уменьшить количество сетевых запросов.
+//Протокол UserService
+//swift
+
+protocol UserService {
+    func fetchUserData(userId: String, completion: @escaping (UserData?) -> Void)
+}
+//Класс RealUserService
+//swift
+
+import Foundation
+
+class RealUserService: UserService {
+    func fetchUserData(userId: String, completion: @escaping (UserData?) -> Void) {
+        let url = URL(string: "https://api.example.com/users/\(userId)")!
+        
+        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data, error == nil else {
+                completion(nil)
+                return
+            }
+            
+            let userData = try? JSONDecoder().decode(UserData.self, from: data)
+            completion(userData)
+        }
+        
+        task.resume()
+    }
+}
+//Класс UserServiceProxy
+//swift
+
+class UserServiceProxy: UserService {
+    private let realUserService: RealUserService
+    private var cache: [String: UserData] = [:]
+    
+    init(realUserService: RealUserService) {
+        self.realUserService = realUserService
+    }
+    
+    func fetchUserData(userId: String, completion: @escaping (UserData?) -> Void) {
+        if let cachedData = cache[userId] {
+            print("Returning cached data for user \(userId)")
+            completion(cachedData)
+            return
+        }
+        
+        print("Fetching data from network for user \(userId)")
+        realUserService.fetchUserData(userId: userId) { [weak self] userData in
+            if let userData = userData {
+                self?.cache[userId] = userData
+            }
+            completion(userData)
+        }
+    }
+}
+//Модель UserData
+struct UserData: Codable {
+    let id: String
+    let name: String
+    let email: String
+}
+//Объяснение кода
+//Протокол UserService: Определяет метод fetchUserData, который будет реализован и в реальном сервисе, и в прокси.
+//Класс RealUserService: Реализует протокол UserService и выполняет сетевой запрос для получения данных о пользователях. В методе fetchUserData используется URLSession для выполнения запроса и обработки ответа.
+//Класс UserServiceProxy: Реализует протокол UserService и содержит логику кэширования. Если данные для запрашиваемого пользователя уже находятся в кэше, прокси возвращает их немедленно. Если данных нет, прокси выполняет запрос через реальный сервис и затем сохраняет данные в кэше.
+//Модель UserData: Представляет данные пользователя, которые будут получены от API.
+//Использование прокси в клиентском коде
+
+let realService = RealUserService()
+let proxyService = UserServiceProxy(realUserService: realService)
+
+//proxyService.fetchUserData(userId: "12345") { userData in
+//    if let userData = userData {
+//        print("User name: \(userData.name), email: \(userData.email)")
+//    } else {
+//        print("Failed to fetch user data")
+//    }
+//}
+
+// Повторный вызов с тем же userId, данные будут взяты из кэша
+//proxyService.fetchUserData(userId: "12345") { userData in
+//    if let userData = userData {
+//        print("User name: \(userData.name), email: \(userData.email)")
+//    } else {
+//        print("Failed to fetch user data")
+//    }
+//}
+//Объяснение клиентского кода
+//Создаем экземпляр реального сервиса RealUserService.
+//Создаем экземпляр прокси UserServiceProxy, передавая ему реальный сервис.
+//Вызываем метод fetchUserData через прокси, который сначала проверяет кэш и возвращает данные из кэша, если они доступны, или делает реальный сетевой запрос в противном случае.
+//Этот пример демонстрирует, как паттерн Proxy может быть использован для улучшения производительности приложения за счет кэширования данных, полученных от сетевых запросов.

@@ -11,7 +11,10 @@ import SwiftUI
 struct CombineLessonsApp: App {
     var body: some Scene {
         WindowGroup {
-            LinkInProxyView()
+            DeepLinkTestView()
+                .onOpenURL { url in
+                    print(url)
+                }
         }
     }
 }
